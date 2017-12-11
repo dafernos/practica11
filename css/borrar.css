@@ -1,0 +1,20 @@
+.container>main{
+    order:2;
+    display:grid;
+    justify-content: space-around;
+    grid-template-columns: 50%;
+    grid-column-gap:2%;
+    grid-row-gap: 2em;
+    padding: 30px;
+}
+main>article{
+	align-content: center;
+}
+
+input:required{
+	border: 1px solid red;
+}
+article input{
+	margin: 15px 0;
+	display: block;
+}
